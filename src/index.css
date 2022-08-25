@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input {
+        @apply h-9;
+        @apply border-[1px];
+        @apply shadow-sm;
+        @apply focus:outline-none;
+        @apply focus:ring-1;
+        @apply focus:ring-indigo-300 ;
+        @apply focus:border-indigo-300;
+        @apply hover:ring-1;
+        @apply hover:ring-indigo-300;
+        @apply hover:border-indigo-300;
+        @apply rounded-md;
+    }
+    select {
+        @apply cursor-pointer;
+    }
+}
+
+@layer components  {
+    .hover-indigo-customize{
+        @apply hover:ring-1 hover:ring-indigo-300 hover:border-indigo-300;
+    }
+  }
