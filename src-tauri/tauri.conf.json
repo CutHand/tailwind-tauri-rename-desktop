@@ -28,7 +28,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.manruzhe.rename",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -58,7 +58,9 @@
         "height": 600,
         "resizable": true,
         "title": "tailwind-rename",
-        "width": 800
+        "width": 800,
+        "center": true,
+        "decorations": false
       }
     ]
   }
